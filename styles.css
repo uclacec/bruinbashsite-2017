@@ -1,3 +1,7 @@
+* {
+    font-family: Asap;
+}
+
 html{overflow-x:hidden;font-family: 'Asap', sans-serif;}
 .section{
     width:99vw;
@@ -7,4 +11,10 @@ html{overflow-x:hidden;font-family: 'Asap', sans-serif;}
 }
 #navbar *{
 
+}
+
+
+/*SPONSORS SECTION*/
+#sponsors h2 {
+    text-align: center;
 }
