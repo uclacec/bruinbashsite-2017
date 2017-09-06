@@ -16,7 +16,7 @@ $("#fes-button").click(function() {
         scrollTop: $("#festival").offset().top
     }, 2000);
 });
-$("#about-cec-cac-button").click(function() {
+$("#about-button").click(function() {
     $('html, body').animate({
         scrollTop: $("#about-cec-cac").offset().top
     }, 2000);
