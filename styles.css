@@ -270,6 +270,7 @@ and (max-width: 1000px) {
 
 #sponsors img {
     width: 100%;
+    max-height: 100px;
 }
 /*Sponsor Media Queries*/
 @media only screen and (max-width: 576px) {
