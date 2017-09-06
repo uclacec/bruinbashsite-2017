@@ -3,11 +3,55 @@
 }
 
 html{overflow-x:hidden;font-family: 'Asap', sans-serif;}
+body{
+    background-color:#B6EAFC!important;
+}
+div{
+    background-color:#B6EAFC;
+}
+img{
+    width:103%;
+    height:auto;
+}
+.row{
+    margin-top: 20px;
+}
 .section{
     width:99vw;
-    height:90vh;
-    /*this is temporary, only to show where the sections are*/
-    border:solid black 2px;
+    /*this is temporary, only to show where the sections are
+    border:solid black 2px;*/
+}
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+
+    display: flex;
+    align-items: center;
+}
+
+#about-cec-cac {
+    margin-left: 0px !important;
+}
+#concert-image{
+    margin-top:-77px;
+}
+#concert-text{
+    margin-top:-160px;
+}
+#festival-image{
+    margin-top:-210px;
+}
+#festival-text{
+    z-index: 2;
+}
+#faq-image-row{
+    width:100%;
+}
+#faq-text{
+    z-index:1;
+}
+#faq-image{
+    margin-top:-200px;
 }
 #navbar *{
 
