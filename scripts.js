@@ -26,3 +26,13 @@ $("#lot-button").click(function() {
         scrollTop: $("#lottery-FAQ").offset().top
     }, 2000);
 });
+
+$(document).scroll(function() {
+    if ($(document).scrollTop() >= $('#concert').offset().top) {
+        // user scrolled 50 pixels or more;
+        $('#navbar *').css({color:'black'});
+    }  else if ($(document).scrollTop()<$('#concert').offset().top) {
+        $('#navbar *').css({color:'white'});
+        console.log('hi');
+    }
+});

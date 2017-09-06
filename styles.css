@@ -17,8 +17,9 @@ img{
     margin-top: 20px;
 }
 .section{
-    width:99vw;
+    width:100vw;
     height:90vh;
+    overflow:hidden;
     /*this is temporary, only to show where the sections are*/
     /*border:solid black 2px;*/
 }
@@ -45,7 +46,9 @@ nav{display:none !important;}
     display: flex;
     align-items: center;
 }
-
+.section.sub {
+    padding:5%;
+}
 #about-cec-cac {
     margin-left: 0px !important;
 }
