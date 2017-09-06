@@ -12,6 +12,7 @@ div{
 img{
     width:103%;
     height:auto;
+    background-color: none;
 }
 .row{
     margin-top: 20px;
@@ -51,12 +52,14 @@ nav{display:none !important;}
 }
 #concert-image{
     margin-top:-77px;
+    background: transparent;
 }
 #concert-text{
     margin-top:-160px;
 }
 #festival-image{
     margin-top:-210px;
+    background: transparent;
 }
 #festival-text{
     z-index: 2;
@@ -69,6 +72,7 @@ nav{display:none !important;}
 }
 #faq-image{
     margin-top:-200px;
+    background: transparent;
 }
 #navbar *{
     display: inline;
