@@ -17,4 +17,19 @@ html{overflow-x:hidden;font-family: 'Asap', sans-serif;}
 /*SPONSORS SECTION*/
 #sponsors h2 {
     text-align: center;
+    margin-bottom: 50px;
+}
+
+#sponsors .row {
+    margin-bottom: 50px;
+}
+
+#sponsors img {
+    width: 100%;
+}
+/*Sponsor Media Queries*/
+@media only screen and (max-width: 576px) {
+    #sponsors img {
+        margin-bottom: 50px;
+    }
 }
