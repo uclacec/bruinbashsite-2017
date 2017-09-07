@@ -74,6 +74,15 @@ nav{display:none !important;}
 #faq-image{
     margin-top:-200px;
 }
+#mobile-film-image {
+    display: none;
+}
+#mobile-festival-image {
+    display: none;
+}
+#mobile-faq-image {
+    display: none;
+}
 #navbar *{
     display: inline;
     cursor:pointer;

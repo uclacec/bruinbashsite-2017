@@ -1,61 +1,116 @@
-@media only screen and (max-width: 768px) {
-
-}
-
-@media only screen and (max-width: 576px) {
-    #concert-image  {
-        width: 80%;
-        margin: auto;
-        margin-top: -15%;
+@media only screen and (max-width: 1300px) {
+    #concert-text {
+        margin-top: -110px;
     }
     
-    #concert-text{
+    #festival-image {
+        margin-top: -150px;
+    }
+    
+    #faq-image {
+        margin-top:-150px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    #concert-image {
+        width: 40%;
         margin: auto;
-        width: 90%;
-        display: block;
+        margin-top: -10%;
+    }
+    
+    #concert-text {
+        margin: auto;
         margin-top: 0px;
+        width: 90%;
     }
     
     #film-image {
-        width: 70%;
+        display: none;
+    }
+    
+    #mobile-film-image {
+        display: block;
+        width: 30%;
         margin: auto;
-        margin-top: 50px;
+        clear: both;
     }
     
     #film-text {
         margin: auto;
         width: 90%;
+    }
+    
+    #mobile-festival-image {
         display: block;
-        clear: both;
+        width: 40%;
+        margin: auto;
+        margin-top: 30px;
     }
     
     #festival-image{
-        width: 70%;
-        margin: auto;
-        margin-top: 50px;
+        display: none;
     }
     
     #festival-text{
         margin: auto;
         width: 90%;
-        z-index: 2;
     }
     
-    #faq-image-row{
-        width:100%;
+    #mobile-faq-image {
+        display: block;
+        width: 40%;
+        margin: auto;
+        margin-top: 30x;
+        background: transparent;
+    }
+    
+    #faq-image {
+        display: none;
     }
     
     #faq-text{
         margin: auto;
         width: 90%;
-        z-index:1;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #concert-image  {
+        width: 70%;
+        margin-top: -15%;
     }
     
-    #faq-image{
-        width: 70%;
-        margin: auto;
-        margin-top:50x;
-        background: transparent;
+    #concert-text{
+        width: 90%;
     }
+    
+    #mobile-film-image {
+        width: 50%;
+        margin-top: 50px;
+    }
+    
+    #film-text {
+        width: 90%;
+    }
+    
+    #mobile-festival-image{
+        width: 70%;
+        margin-top: 50px;
+    }
+    
+    #festival-text{
+        width: 90%;
+    }
+    
+    #mobile-faq-image{
+        width: 70%;
+        margin-top:50x;
+    }
+    
+    #faq-text{
+        width: 90%;
+    }
+    
     
 }
