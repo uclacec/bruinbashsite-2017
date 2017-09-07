@@ -1,0 +1,61 @@
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 576px) {
+    #concert-image  {
+        width: 80%;
+        margin: auto;
+        margin-top: -15%;
+    }
+    
+    #concert-text{
+        margin: auto;
+        width: 90%;
+        display: block;
+        margin-top: 0px;
+    }
+    
+    #film-image {
+        width: 70%;
+        margin: auto;
+        margin-top: 50px;
+    }
+    
+    #film-text {
+        margin: auto;
+        width: 90%;
+        display: block;
+        clear: both;
+    }
+    
+    #festival-image{
+        width: 70%;
+        margin: auto;
+        margin-top: 50px;
+    }
+    
+    #festival-text{
+        margin: auto;
+        width: 90%;
+        z-index: 2;
+    }
+    
+    #faq-image-row{
+        width:100%;
+    }
+    
+    #faq-text{
+        margin: auto;
+        width: 90%;
+        z-index:1;
+    }
+    
+    #faq-image{
+        width: 70%;
+        margin: auto;
+        margin-top:50x;
+        background: transparent;
+    }
+    
+}

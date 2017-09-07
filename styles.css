@@ -54,6 +54,7 @@ nav{display:none !important;}
 }
 #concert-image{
     margin-top:-77px;
+    background: transparent;
 }
 #concert-text{
     margin-top:-160px;
@@ -262,6 +263,10 @@ and (max-width: 1000px) {
 
 
 /*SPONSORS SECTION*/
+#sponsors {
+    margin-top: 100px;
+}
+
 #sponsors h2 {
     text-align: center;
     margin-bottom: 50px;
