@@ -22,10 +22,12 @@ img{
 #landing-header {
     height: 90vh;
     overflow: hidden;
+    background: cover;
 }
 #concert-slideshow {
     height: 90vw;
     width: 100vw;
+    
 }
 nav{display:none !important;}
 #navbar-container{

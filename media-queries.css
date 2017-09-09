@@ -1,12 +1,12 @@
 @media only screen and (max-width: 1300px) {
-    /*#landing-header {
+    #landing-header {
         height: 60vh;
         overflow: hidden;
     }
     #concert-slideshow {
         height: auto;
         width: 100vw;
-    }*/
+    }
     .container {
         width: 100% !important;
     }
