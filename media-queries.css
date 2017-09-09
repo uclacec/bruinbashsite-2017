@@ -1,11 +1,4 @@
 @media only screen and (max-width: 1300px) {
-    #landing-header {
-        
-    }
-    #concert-slideshow {
-        height: auto;
-        width: 100vw;
-    }
     .container {
         width: 100% !important;
     }
@@ -23,13 +16,18 @@
 }
 
 @media only screen and (max-width: 850px) {
+    #landing-header {
+        height: 50vh;
+    }
+    #logo {
+        padding-top: 20px;
+    }
     .container {
         width: 100% !important;
     }
     #concert-image {
         display: none;
     }
-    
     #mobile-concert-image {
         display: block;
         margin: auto;
@@ -94,6 +92,12 @@
 }
 
 @media only screen and (max-width: 576px) {
+    #landing-header {
+        height: auto;
+    }
+    #logo {
+        width: 90%;
+    }
     #mobile-concert-image  {
         width: 60%;
     }
