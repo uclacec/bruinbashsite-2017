@@ -1,7 +1,6 @@
 @media only screen and (max-width: 1300px) {
     #landing-header {
-        height: 60vh;
-        overflow: hidden;
+        
     }
     #concert-slideshow {
         height: auto;

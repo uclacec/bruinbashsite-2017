@@ -21,13 +21,17 @@ img{
 }
 #landing-header {
     height: 90vh;
-    overflow: hidden;
-    background: cover;
+    background: url('assets/sweater-beats.jpg')
 }
 #concert-slideshow {
     height: 90vw;
-    width: 100vw;
-    
+    width: 100vw;  
+}
+#logo {
+    display: block;
+    width: 40%;
+    margin: auto;
+    padding-top: 100px;
 }
 nav{display:none !important;}
 #navbar-container{
