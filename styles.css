@@ -16,12 +16,16 @@ img{
 .row{
     margin-top: 20px;
 }
-.section{
-    width:100vw;
-    height:90vh;
-    overflow:hidden;
-    /*this is temporary, only to show where the sections are*/
-    /*border:solid black 2px;*/
+.container {
+    width: 90% !important;
+}
+#landing-header {
+    height: 90vh;
+    overflow: hidden;
+}
+#concert-slideshow {
+    height: 90vw;
+    width: 100vw;
 }
 nav{display:none !important;}
 #navbar-container{
@@ -57,10 +61,10 @@ nav{display:none !important;}
     background: transparent;
 }
 #concert-text{
-    margin-top:-160px;
+    margin-top:-130px;
 }
 #festival-image{
-    margin-top:-210px;
+    margin-top:-200px;
 }
 #festival-text{
     z-index: 2;
@@ -73,6 +77,9 @@ nav{display:none !important;}
 }
 #faq-image{
     margin-top:-200px;
+}
+#mobile-concert-image {
+    display: none;
 }
 #mobile-film-image {
     display: none;
