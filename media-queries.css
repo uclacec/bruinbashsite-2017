@@ -26,7 +26,8 @@
         width: 100% !important;
     }
     #concert-image {
-        display: none;
+        width: 80%;
+        margin: auto;
     }
     #mobile-concert-image {
         display: block;
@@ -98,7 +99,7 @@
     #logo {
         width: 90%;
     }
-    #mobile-concert-image  {
+    #concert-image  {
         width: 60%;
     }
     
@@ -107,7 +108,7 @@
     }
     
     #mobile-film-image {
-        width: 50%;
+        width: 35%;
         margin-top: 50px;
     }
     
@@ -116,7 +117,7 @@
     }
     
     #mobile-festival-image{
-        width: 70%;
+        width: 55%;
         margin-top: 50px;
     }
     
@@ -125,7 +126,7 @@
     }
     
     #mobile-faq-image{
-        width: 70%;
+        width: 50%;
         margin-top:50x;
     }
     
