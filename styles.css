@@ -307,7 +307,7 @@ and (max-width: 1000px) {
 }
 
 .image-slot {
-    width: calc(100%/7);
+    width: calc(100%/6);
     float: left;
     padding-right: 20px;
     padding-left: 20px;
