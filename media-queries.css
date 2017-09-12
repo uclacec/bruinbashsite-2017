@@ -87,7 +87,7 @@
         display: none;
     }
     
-    #faq-text{
+    #faq-tab-row{
         margin: auto;
         width: 90%;
     }
@@ -138,10 +138,10 @@
     
     #mobile-faq-image{
         width: 50%;
-        margin-top:50x;
+        margin-top:50px;
     }
     
-    #faq-text{
+    #faq-tab-row{
         width: 90%;
     }
     

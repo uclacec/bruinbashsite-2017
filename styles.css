@@ -77,11 +77,12 @@ nav{display:none !important;}
 #faq-image-row{
     width:100%;
 }
-#faq-tabs{
+#faq-tab{
     z-index:1;
 }
 #faq-image{
-    margin-top:-200px;
+    margin-top:-250px;
+    background:transparent;
 }
 #mobile-concert-image {
     display: none;
