@@ -97,7 +97,7 @@
         width: 90%;
     }
     .image-slot {
-        width: calc(100%/5);
+        width: calc(100%/4);
         padding-left: 10px;
         padding-right: 10px;
     }
