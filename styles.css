@@ -74,11 +74,11 @@ nav{display:none !important;}
 #festival-text{
     z-index: 2;
 }
-#faq-tabs{
-    z-index:20;
+#faq-tab-content{
+    z-index:2;
 }
 #faq-tab-list{
-    z-index:20;
+    z-index:2;
 }
 #faq-image-row{
     width:100%;
@@ -86,7 +86,7 @@ nav{display:none !important;}
 #faq-image{
     margin-top:-250px;
     background:transparent;
-    z-index:19;
+    z-index:1;
 }
 #mobile-concert-image {
     display: none;
