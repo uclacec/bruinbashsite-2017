@@ -79,7 +79,7 @@
         display: block;
         width: 40%;
         margin: auto;
-        margin-top: 30x;
+        margin-top: 30px;
         background: transparent;
     }
     
@@ -88,7 +88,7 @@
     }
     
     #faq-tab-row{
-        margin: auto;
+        font-size:9px;
         width: 90%;
     }
     
