@@ -25,7 +25,7 @@
             <li id="lot-button">Lottery & FAQ</li>
         </ul>
     </div>
-    <nav role="navigation" style="position:fixed;" class="col-md-12">
+    <nav role="navigation" style="position:fixed;z-index:100" class="col-md-12">
         <div id="menuToggle">
             <!--
             A fake / hidden checkbox is used as click reciever,
@@ -67,11 +67,11 @@
                 <br><br>
                 100/200 level (Seated) tickets - Students have the option of entering an online lottery to receive a ticket for 100/200 level concert seating. Note that not all students who enter the lottery will receive a ticket due to venue capacity restraints. Students will be notified September 23rd of the result of the lottery.
                 <br><br>
-                More details can be found under <a href="#lottery-FAQ">Tickets & FAQ</a>.
+                More details can be found under <a href="#lottery-FAQ" style="color:darkorange">Tickets & FAQ</a>.
                 <br><br>
                 If interested in signing up for the opportunity to receive a Bruin Bash concert ticket, please be mindful of the Friday, September 18th 4:00pm deadline.
                 <br><br>
-                Before the lottery opens, we highly suggest that you attempt to login to your <a href="https://oss.ticketmaster.com/html/home.htmI?l=EN&team=uclastudent" target="_blank">CTO Student account here</a>. You will need to use your UID (not your email address) as your Account ID. If this is the first time you are accessing this site and/or forgot your password, please click on the “Forgot your password” link to reset your credentials. If you have any questions regarding your account please email cto@tickets.ucla.edu
+                Before the lottery opens, we highly suggest that you attempt to login to your <a style="color:darkorange" href="https://oss.ticketmaster.com/html/home.htmI?l=EN&team=uclastudent" target="_blank">CTO Student account here</a>. You will need to use your UID (not your email address) as your Account ID. If this is the first time you are accessing this site and/or forgot your password, please click on the “Forgot your password” link to reset your credentials. If you have any questions regarding your account please email cto@tickets.ucla.edu
                 <br><br>
                 If you have any questions whatsoever, please do not hesitate to reach us at bruinbash.ucla@gmail.com
 
@@ -87,13 +87,18 @@
         <div id="mobile-film-image"><!--This was put here by Olly, don't worry about it pls-->
             <img src="assets/film-blob.png">
         </div>
-        <div id="film-text" class="col-md-8 offset-md-1 vertical-center">
-            Can’t catch the concert? Come by Sunset Recreation for an awesome night of music, food, and film! We’ll be starting the night with some great tunes and tons of free food—popcorn, candy, and other special treats from our sponsors. Then, for the main event, we’ll be showing Wonder Woman out on the Sunset Rec lawn! So, grab your friends and stretch out on the grass while watching one of the summer’s biggest blockbusters!
-            <br><br>
-            Wristbands for the film will be distributed on the IM field on September 25th from 12:00pm to 4:00pm. Please claim your film wristband at the appropriate wristband tent.
-            <br><br>
+        <div id="film-text" class="col-md-8 col-xs-12 vertical-center">
+            <img src="http://www.joblo.com/timthumb.php?src=%2Fposters%2Fimages%2Ffull%2Fwonder_woman_poster_2.jpg&h=600&q=100"
+                 style="" id="film-poster">
+            <div class="text">
+                Can’t catch the concert? Come by Sunset Recreation for an awesome night of music, food, and Wonder Woman! We’ll be starting the night with some great tunes and tons of free food—popcorn, candy, and other special treats from our sponsors. Then, for the main event, we’ll be showing Wonder Woman out on the Sunset Rec lawn! So, grab your friends and stretch out on the grass while watching one of the summer’s biggest blockbusters!
+                <br><br>
+                Wristbands for Wonder Woman will be distributed on the IM field on September 25th from 12:00pm to 4:00pm. Please claim your Wonder Woman wristband at the appropriate wristband tent.
+                <br><br>
 
-            Doors to Sunset Recreation will open at 5:00pm, and the movie starts promptly at 7:30pm. But don't miss out on watching the sunset at 6:50!
+                Doors to Sunset Recreation will open at 5:00pm, and the movie starts promptly at 7:30pm. But don't miss out on watching the sunset at 6:50!
+            </div>
+
         </div>
         <div id="film-image" class="col-md-3">
             <img src="assets/film-blob.png">
@@ -308,6 +313,7 @@
                     <h1>About CEC</h1>
                     Since 1965 Campus Events Commission (CEC)​ has been one of the largest purveyors of campus entertainment. Since its inception, CEC has had a reputation for its edgy advertising and controversial events. Still pushing the envelope today, CEC remains a
                     student-run, student-funded organization, dedicated to introducing the finest fare in film, music and speakers to the UCLA community. Be it media seen or heard, Campus Events Commission is constantly in search of that which is as evocative and diverse as its audience.
+                    <div style="float:right;margin-top:3%;">@uclacec</div>
                 </div>
                 <br>
                 <h1>About CAC</h1>
@@ -318,8 +324,6 @@
                 on campus.
                 <div style="float:right;margin-top:3%;">@culturalaffairs</div>
             </div>
-
-            <div style="float:right;margin-top:3%;">@uclacec</div>
         </div>
     </div>
 </div>
