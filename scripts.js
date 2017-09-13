@@ -4,27 +4,27 @@
 $("#con-button").click(function() {
     $('html, body').animate({
         scrollTop: $("#concert").offset().top
-    }, 2000);
+    }, 500);
 });
 $("#film-button").click(function() {
     $('html, body').animate({
-        scrollTop: $("#film").offset().top-100
-    }, 2000);
+        scrollTop: $("#film").offset().top-50
+    }, 500);
 });
 $("#fes-button").click(function() {
     $('html, body').animate({
         scrollTop: $("#festival").offset().top-100
-    }, 2000);
+    }, 500);
 });
 $("#about-button").click(function() {
     $('html, body').animate({
         scrollTop: $("#about-cec-cac").offset().top-100
-    }, 2000);
+    }, 500);
 });
 $("#lot-button").click(function() {
     $('html, body').animate({
         scrollTop: $("#lottery-FAQ").offset().top
-    }, 2000);
+    }, 500);
 });
 
 $(document).scroll(function() {
