@@ -8,17 +8,17 @@ $("#con-button").click(function() {
 });
 $("#film-button").click(function() {
     $('html, body').animate({
-        scrollTop: $("#film").offset().top
+        scrollTop: $("#film").offset().top-100
     }, 2000);
 });
 $("#fes-button").click(function() {
     $('html, body').animate({
-        scrollTop: $("#festival").offset().top
+        scrollTop: $("#festival").offset().top-100
     }, 2000);
 });
 $("#about-button").click(function() {
     $('html, body').animate({
-        scrollTop: $("#about-cec-cac").offset().top
+        scrollTop: $("#about-cec-cac").offset().top-100
     }, 2000);
 });
 $("#lot-button").click(function() {

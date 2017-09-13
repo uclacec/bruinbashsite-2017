@@ -50,6 +50,9 @@ img{
     /*this is temporary, only to show where the sections are
     border:solid black 2px;*/
 }
+
+#film-poster{width:200px;height:auto;margin:15px;}
+
 .vertical-center {
     min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
     min-height: 100vh; /* These two lines are counted as one :-)       */
@@ -141,9 +144,11 @@ img{
     margin: auto;
     display: block;
 }
+
 /*Sponsor Media Queries*/
 @media only screen and (max-width: 576px) {
     #sponsors img {
         margin-bottom: 50px;
     }
+    #film-text.vertical-center{display:block;}
 }
