@@ -1,0 +1,21 @@
+body{
+    background: -webkit-linear-gradient(left top, #27F4DF, #6C91E9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #27F4DF, #6C91E9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #27F4DF, #6C91E9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #27F4DF, #6C91E9); /* Standard syntax */
+}
+#student-orgs{
+    padding:2%;
+    height:80vh;
+    overflow-y:scroll;
+    color:white;
+    border:solid white 1px;
+}
+#eaflogo{
+    width:40vw;
+    display:inline-block;
+}
+#eaftext{
+    width:40vw;
+    display:inline-block;
+}
