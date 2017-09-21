@@ -126,11 +126,8 @@ img{
     text-align: center;
 }
 
-#sponsors .row {
-    
-}
-
 #sponsors-row {
+
 }
 
 .image-slot {
@@ -142,7 +139,7 @@ img{
 
 .image-slot img {
     margin: auto;
-    display: block;
+    width: 100%;
 }
 
 /*Sponsor Media Queries*/
