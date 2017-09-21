@@ -19,3 +19,15 @@ body{
     width:40vw;
     display:inline-block;
 }
+@media only screen and (max-width: 850px) {
+    #eaflogo{
+        width:90%;
+        display:block;
+        margin:auto;
+    }
+    #eaftext{
+        width:90%;
+        display:block;
+        margin:auto;
+    }
+}
