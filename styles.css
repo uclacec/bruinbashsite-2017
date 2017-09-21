@@ -152,3 +152,20 @@ img{
     }
     #film-text.vertical-center{display:block;}
 }
+
+/*Artists*/
+#artists {
+    margin-bottom: 70px;
+}
+
+#artists h1,#artists h2 {
+    text-align: center;
+}
+
+#artists-title {
+    margin-bottom: 20px;
+}
+
+.social-icons img {
+    width: 55%;
+}
