@@ -59,6 +59,10 @@
         margin-top: 20px;
     }
     
+    #film-map-holders {
+        width: 100%;
+    }
+    
     #mobile-festival-image {
         display: block;
         width: 30%;
