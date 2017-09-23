@@ -24,7 +24,7 @@ $("#about-button").click(function() {
 $("#lot-button").click(function() {
     $('html, body').animate({
         scrollTop: $("#lottery-FAQ").offset().top
-    }, 500);
+    }, 1000);
 });
 
 $(document).scroll(function() {

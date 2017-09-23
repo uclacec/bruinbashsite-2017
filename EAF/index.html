@@ -17,8 +17,10 @@
 <div id="landing">
     <img src="EAFLogo.png" id="eaflogo">
     <img src="EAFtext.png" id="eaftext">
+    <img src="EAFDetails.png" id="eafdeets">
+    <img src="white-down-arrow-png-2.png" id="down-arrow">
 </div>
-<h1 class="text-center" style="margin:2%; color:white;">Student Organizations</h1>
+<h1 class="text-center" style="margin:2%; color:white;" id="studentOrgs">Student Organizations</h1>
 <div class="container" >
 
     <div class="row justify-content-center" >
@@ -614,6 +616,12 @@
         crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-<script src="scripts.js"></script>
+<script>
+    $("#down-arrow").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#studentOrgs").offset().top
+        }, 500);
+    });
+</script>
 </body>
 </html>
