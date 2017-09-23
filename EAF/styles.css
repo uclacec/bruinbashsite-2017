@@ -4,6 +4,7 @@ body{
     background: -moz-linear-gradient(bottom right, #27F4DF, #44CAE3 ,#6F8EEA); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to bottom right, #27F4DF, #44CAE3 ,#6F8EEA); /* Standard syntax */
 }
+#landing{height:100vh;}
 #student-orgs{
     padding:2%;
     height:80vh;
@@ -12,12 +13,27 @@ body{
     border:solid white 1px;
 }
 #eaflogo{
+    margin-top:5vh;
     width:40vw;
     display:inline-block;
 }
 #eaftext{
+    margin-top:5vh;
     width:40vw;
     display:inline-block;
+}
+#eafdeets{
+    width:25vw;
+    position:relative;
+    left:70vw;
+    margin-top:-25vh;
+    margin-bottom:10vh;
+}
+#down-arrow{
+    position:absolute;
+    left:47vw;
+    width:5vw;
+    cursor:pointer;
 }
 @media only screen and (max-width: 850px) {
     #eaflogo{
@@ -29,5 +45,17 @@ body{
         width:90%;
         display:block;
         margin:auto;
+    }
+    #eafdeets{
+        width:90vw;
+        position:relative;
+        margin-top:0;
+        margin-bottom:20vh;
+        left:5%;
+    }
+    #studentOrgs{margin-top:5vh !important;}
+    #student-orgs{height:40vh;}
+    #down-arrow{
+        display:none;
     }
 }
